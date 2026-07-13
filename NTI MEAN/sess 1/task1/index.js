@@ -1,0 +1,10 @@
+var num1 = Number(prompt("enter the fisrt number"));
+var num2 = Number(prompt("enter the second number"));
+var sum = num1 + num2;
+var sub = num1 - num2;
+var multiply = num1 * num2;
+var divide = num1/num2;
+document.getElementById("sum").innerHTML = "sum = " + sum;
+document.getElementById("sub").innerHTML = "sub = " + sub;
+document.getElementById("mult").innerHTML = "multiply = " +  multiply;
+document.getElementById("div").innerHTML = "division = " + divide;
