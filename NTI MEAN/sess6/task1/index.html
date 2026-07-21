@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="container justify-content-center align-content-center ">
+        
+        <div class="row justify-content-center text-center ">
+            <div class="col-md-12 h-100">
+                <div class="main">              
+                  <label for="">first name</label>
+                  <input type="text" class="in" id="first">
+                  <label for="">last name</label>
+                  <input type="text" class="in" id="last">
+                  <label for="">Age</label>
+                  <input type="number" class="in" id="age">
+                  <label for="">
+                  <input type="checkbox" id="isG" name="Student" value="yes">
+                   is graduated?
+                  </label>
+                  
+                  <button class="add" id="Add">Add user</button>
+                </div>
+ 
+
+            </div>
+
+        </div>
+         
+        <div class="row justify-content-center text-center w-100">
+            <div class="col-md-6">
+                <input type="text"  name="search" placeholder="Search..." id="search">
+            </div>
+            <div class="col-md-6">
+                <button class="is">is graduated</button>
+            </div>
+        </div>
+       
+
+        <div class="nav row justify-content-center text-center flex-column">
+            <div class="col-md-12">
+                <table>
+                    <thead>
+                        <th>first name</th>
+                        <th>last name</th>
+                        <th>Age</th>
+                        <th>is graduated</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody id="tbody">
+                        <tr>
+                        <td>maryam</td>
+                        <td>sherif</td>
+                        <td>20</td>
+                        <td>Student</td>
+                        <td class="action">
+                            <button class="btn-update">Update</button>
+                            <button class="btn-delete">Delete</button>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+   
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

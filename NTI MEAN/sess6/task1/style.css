@@ -1,0 +1,91 @@
+body{
+    font-weight: bold;
+    background-color: pink;
+}
+.main{
+    padding: 0px;
+    margin: 30px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(149, 67, 67);
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+}
+.in{
+    flex: 0 0 calc(10px - 20px);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.add{
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(89, 194, 89);
+    cursor: pointer;
+}
+#search{
+ width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+.is{
+ background-color: rgb(149, 67, 67);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+table{
+    width: 100%;
+    min-width: 800px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;  
+  flex-wrap: wrap;
+}
+thead th{
+    color: white;
+}
+tbody tr td{
+    text-align: center;
+    color: white;
+    
+}
+
+.btn-delete{
+    background-color: #e37373;
+    margin: 5px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-delete:hover{
+    background-color: #e37373af;
+}
+ 
+.btn-update{
+    background-color: #e3c373;
+    margin: 5px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-update:hover{
+    background-color: #e3c37390;
+}
+.nav{
+    margin: 50px;
+}
